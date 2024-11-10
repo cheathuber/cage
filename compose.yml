@@ -1,0 +1,8 @@
+services:
+  app:
+    build: 
+      dockerfile: app.Dockerfile
+    ports:
+      - "4567:4567"
+    volumes:
+      - ./app:/app
