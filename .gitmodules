@@ -1,3 +1,4 @@
 [submodule "app"]
 	path = app
 	url = https://github.com/cheathuber/nosilence.git
+	branch = production
